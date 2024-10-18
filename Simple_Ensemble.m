@@ -1,4 +1,4 @@
-%% histograma.m
+%% Simple_Ensemble.m
 % 
 % Criado em 2024-08-24 às 16:50:13
 % Autor: GabrielCampelo
@@ -65,4 +65,4 @@ figure;
 histogram(x, edges, 'Normalization','probability');
 title('Histograma dos Autovalores');  % Define o título do histograma
 xlabel('Autovalores');  % Define o rótulo do eixo x
-ylabel('p(x)');  % Define o rótulo do eixo y
+ylabel('Frequência');  % Define o rótulo do eixo y
